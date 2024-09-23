@@ -6,18 +6,16 @@ import pandas as pd
 
 def get_data_path(data_name):
     if data_name == 'pems08':
-        data_path_set = 'D:\LS\python_project\Multi_Task_Learning\LibMTL-main\examples\pems_graph_mtl\data\pems08.npz'
+        data_path_set = '.\data\pems08.npz'
 
     elif data_name == 'pems03':
-        # data_path_set = 'D:\LS\python_project\Multi_Task_Learning\LibMTL-main\examples\pems_graph_mtl\data\pems03.npz'
-        data_path_set = 'D:\LS\python_project\Multi_Task_Learning\LibMTL-main\examples\pems_graph_mtl\data\pems04.npz'
+        data_path_set = '.\data\pems03.npz'
 
     elif data_name == 'pems04':
-        data_path_set = 'D:\LS\python_project\Multi_Task_Learning\LibMTL-main\examples\pems_graph_mtl\data\pems04.npz'
+        data_path_set = '.\data\pems04.npz'
 
     elif data_name == 'pems07':
-        # data_path_set = 'D:\LS\python_project\Multi_Task_Learning\LibMTL-main\examples\pems_graph_mtl\data\pems07.npz'
-        data_path_set = 'D:\LS\python_project\Multi_Task_Learning\LibMTL-main\examples\pems_graph_mtl\data\pems08.npz'
+        data_path_set = '.\data\pems07.npz'
 
     else:
         data_path_set = []
